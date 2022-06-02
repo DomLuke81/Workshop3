@@ -92,7 +92,7 @@ public class UserDao {
         return tmpUsers; // Zwracamy nową tablicę.
     }
 
-    public User[] findAll() {
+    public           User[] findAll() {
         User[] users = new User[0];
         try (Connection conn = DbUtil.getConnection();
              PreparedStatement statement = conn.prepareStatement(SELECT_USERS_QUERY)) {
