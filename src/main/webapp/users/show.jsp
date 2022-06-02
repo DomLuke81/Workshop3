@@ -19,17 +19,17 @@
                 </div>
 
                 <div>
-                    <table>
+                    <table class="table-bordered">
                         <tr>
-                            <td>id</td>
+                            <td class="table-primary">id</td>
                             <td>${user.id}</td>
                         </tr>
                         <tr>
-                            <td>Nazwa użytkownika</td>
+                            <td class="table-primary">Nazwa użytkownika</td>
                             <td>${user.userName}</td>
                         </tr>
                         <tr>
-                            <td>Email</td>
+                            <td class="table-primary">Email</td>
                             <td>${user.email}</td>
                         </tr>
                     </table>

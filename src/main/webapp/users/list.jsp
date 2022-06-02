@@ -17,8 +17,8 @@
                         <span class="text">Dodaj użytkownika</span></a>
                 </div>
 
-                <table width="100%">
-                    <tr>
+                <table class="table-bordered" width="100%">
+                    <tr class="border-bottom-primary table-primary">
                         <th>ID</th>
                         <th>Nazwa użytkownika</th>
                         <th>Email</th>
@@ -34,7 +34,7 @@
                                     <i class="fas fa-info-circle"></i></a>
                                 <a href="/user/edit?id=${user.id}" class="btn btn-warning btn-circle btn-sm">
                                     <i class="fas fa-exclamation-triangle"></i></a>
-                                <a href="/user/del?id=${user.id}" class="btn btn-danger btn-circle btn-sm">
+                                <a href="/user/delete?id=${user.id}" class="btn btn-danger btn-circle btn-sm">
                                     <i class="fas fa-trash"></i></a></td>
                         </tr>
                     </c:forEach>

@@ -33,7 +33,9 @@
             <input type="email" name="email" value="${user.email}"><br/>
             Hasło<br/>
             <input type="password" name="password"><br/><br/>
-            <input type="submit" value="Zapisz" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
+            <button type="submit" class="btn btn-success btn-icon-split">
+              <span class="icon text-white-50"><i class="fas fa-check"></i></span>
+              <span class="text">Zapisz</span></button>
           </form>
         </div>
 
